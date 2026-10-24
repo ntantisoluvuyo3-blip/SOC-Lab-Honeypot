@@ -1,6 +1,7 @@
 Incident Report: Cowrie Honeypot Brute-Force and Manual Access
 
 Summary
+
 Between 2026-10-20 20:50 and 21:19 UTC, a Cowrie SSH honeypot (192.168.56.10:2222)
 recorded a Hydra-driven credential brute force from 192.168.56.20, followed by a
 manual interactive root session from the same source. All accepted logins are
@@ -9,6 +10,7 @@ loaded because `etc/userdb.txt` was absent. No real credential compromise is
 implied; this is expected honeypot behavior under its default configuration.
 
 Timeline
+
 All times UTC unless noted. Hydra's own reported completion time is in Kali's
 local clock (EDT, UTC-4) and is not converted here -- see Limitations.
 
