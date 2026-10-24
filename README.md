@@ -18,6 +18,7 @@ What happened
    and manual activity.
 
 Key finding
+
 Cowrie's `etc/userdb.txt` does not exist in this setup, so Cowrie fell back to
 its bundled `userdb.example` default database. That file's deny/allow rules
 (evaluated top to bottom, first match wins) explain every accepted and denied
@@ -31,5 +32,6 @@ Analysis
 - [Incident report](analysis/incident-report.md)
 
 Notes
+
 All data in this repo was generated in this lab. No external or real-world
 incident data is included.
